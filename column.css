@@ -1,0 +1,93 @@
+.about-area {
+	padding-top: 80px;
+	padding-bottom: 130px;
+	position: relative;
+}
+
+.about-area .about-title .sub-title {
+	font-size: 18px;
+	font-weight: 400;
+	color: #0067f4;
+	text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+	.about-area .about-title .sub-title {
+		font-size: 16px;
+	}
+}
+
+.about-area .about-title .title {
+	font-size: 30px;
+	padding-top: 10px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.about-area .about-title .title {
+		font-size: 26px;
+	}
+}
+
+@media (max-width: 767px) {
+	.about-area .about-title .title {
+		font-size: 22px;
+	}
+}
+
+.about-area .about-accordion .accordion .card {
+	border: 0;
+	background: none;
+}
+
+.about-area .about-accordion .accordion .card .card-header {
+	padding: 0;
+	border: 0;
+	background: none;
+	margin-top: 40px;
+}
+
+.about-area .about-accordion .accordion .card .card-header a {
+	font-size: 18px;
+	font-weight: 500;
+	color: #000;
+	display: block;
+	position: relative;
+	padding-right: 20px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.about-area .about-accordion .accordion .card .card-header a {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 767px) {
+	.about-area .about-accordion .accordion .card .card-header a {
+		font-size: 16px;
+	}
+}
+
+.about-area .about-accordion .accordion .card .card-header a::before {
+	content: '\ea58';
+	font-family: 'LineIcons';
+	position: absolute;
+	top: 50%;
+	right: 0;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.about-area .about-accordion .accordion .card .card-header .collapsed::before {
+	content: '\ea5c';
+}
+
+.about-area .about-accordion .accordion .card .card-body {
+	padding: 20px 20px 0;
+}
+
+.about-area .about-image img {
+	width: 100%;
+}
